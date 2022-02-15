@@ -49,11 +49,9 @@ int main()
     		cout << "Press Any Key To Continue..." << endl;
     		getch();
     		main();
-	
 	}
        
     return 0;
-	
 }
 	
 void self_exit()
@@ -94,9 +92,7 @@ void addContact()
 			{
 				cout << "Error opening file!" << endl;
 			}
-			
 		}
-		
 	}
 	else 
 	{
@@ -127,11 +123,9 @@ void searchContact()
 			found = true;
 			break;
 		}
-		
 	}
 	if(found == false) 
 	cout << "No such contact found!" << endl;
-	
 }
 
 bool check_digits(string x)
@@ -155,13 +149,10 @@ bool check_numbers(string x)
 			break;
 		}
 	}
-	
 	if(check == true)
 	return true;
 	if(check == false)
 	return false;
-	
-	
 }
 	
 
