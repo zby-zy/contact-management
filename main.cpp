@@ -6,7 +6,6 @@ using namespace std;
 // Global variables
 string fname, lname, phone_num;
 
-
 // Functions
 void addContact();
 void searchContact();
@@ -50,7 +49,7 @@ int main()
     		getch();
     		main();
 	}
-       
+	
     return 0;
 }
 	
@@ -61,12 +60,10 @@ void self_exit()
 	exit(1);	
 }	
 
-
 void help()
 {
 	cout << "This displays help" << endl;	
 }
-
 
 void addContact()
 {
@@ -103,7 +100,6 @@ void addContact()
 	
 }
 
-
 void searchContact()
 {
 	bool found = false;
@@ -136,7 +132,6 @@ bool check_digits(string x)
 	return false;
 }
 
-
 bool check_numbers(string x)
 {
 	bool check = true;
@@ -154,6 +149,3 @@ bool check_numbers(string x)
 	if(check == false)
 	return false;
 }
-	
-
-    
